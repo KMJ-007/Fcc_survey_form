@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techfest by Karan</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">Techfest</h1>
+     <p id="description">If you are intreset in joining the techfest,<br>please, fill this form<br>It is free!!</p>
+
+     <form action="/Thankyou.html" id="survey-form">
+         <div class="form-group">
+            
+             <label id="name-label"for="name"  >
+                 Name
+                 <input type="text" name="name" id="name"  class="name-label" placeholder="Enter your name" required>
+                </label>
+
+                <label id="email-label"for="email" >Email
+                 <input type="email" id="email" name="email" class="email-label" placeholder="Enter your best email" required>
+                </label>
+
+                 <label id="number-label"for="age">Age
+                <input type="number" name="age" id="number" class="number-label" min="16" max="25" placeholder="Age" >
+            </label>
+
+             <label for="dropdown">Which year are you studying Right now?
+             <select name="dropdown" id="dropdown" required>
+                 
+                 <option disabled selected value>select year of study</option>
+                 <option value="1st year">1St year</option>
+                 <option value="2nd year">2nd year</option>
+                 <option value="3rd year">3rd year</option>
+                 <option value="4th year">4th year</option>
+                 <option value="other">other</option>
+                 
+                 
+                </select>
+            </label>
+            <p>Are you Excited for techfest?</p>
+             <label for="user-review"class="radio-button"> 
+            <label>
+
+                <input type="radio" name="user-review" value="Definitely" class="input-radio" checked >
+                Definitely
+            </label> 
+            <label>
+
+                <input type="radio" name="user-review" value="Maybe" class="input-radio" >
+                Maybe
+            </label> 
+            <label>
+
+                <input type="radio" name="user-review" value="Not-sure" class="input-radio" >
+                Not sure
+            </label> 
+        </label> 
+            
+             <p>Which Games do you play? <span class="clue">(Check all that apply)</span></p>
+             
+             <label for="Games-checkbox" class="games-checkbox">
+               <label>
+                   <input type="checkbox" name="Games-checkbox" value="BGMI" class="input-checkbox">
+                   BGMI
+                </label> 
+               <label>
+
+                <input type="checkbox" name="Games-checkbox" value="Minecraft" class="input-checkbox1">
+                Minecraft   
+            </label> 
+               <label>
+
+                <input type="checkbox" name="Games-checkbox" value="Clash of clans" class="input-checkbox">
+                Clash of clans
+                  
+            </label> 
+            <label>
+
+                <input type="checkbox" name="Games-checkbox" value="Counter strike" class="input-checkbox">
+                Counter strike 
+                  
+            </label> 
+            <label>
+
+                <input type="checkbox" name="Games-checkbox" value="Call of duty" class="input-checkbox">
+                Call of duty    
+             </label>
+
+             <p>Any comments or any suggestions?</p>
+             <textarea name="comment" class="input-textarea" id="comments"  placeholder="Enter your comment here...."></textarea>
+             <button id="submit" class="sumbit-button"type="submit">submit</button>
+            </div>
+            </form>
+</body>
+</html>
