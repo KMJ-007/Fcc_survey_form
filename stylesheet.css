@@ -49,10 +49,10 @@ body::before {
 
 }
 #survey-form{
-    /* margin-right: 23%; */
+    margin-right: 23%;
 }
 .form-group{
-    display: box;
+    display: block;
     text-align: left;
     margin-left: 40%;
     width: 50%;
@@ -97,7 +97,7 @@ body::before {
     color: #e4e4e4;
   }
  .games-checkbox{
-    display: block;
+    display: block; 
     align-items: lefts;
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
